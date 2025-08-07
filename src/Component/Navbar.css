@@ -1,0 +1,29 @@
+/* Gradient background */
+.bg-gradient {
+  background: linear-gradient(90deg, #1f1c2c, #928dab);
+}
+
+/* Hover effect for links */
+.nav-hover {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-hover:hover {
+  color: #ffdd57 !important;
+}
+
+.nav-hover::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #ffdd57;
+  transition: width 0.3s ease;
+}
+
+.nav-hover:hover::after {
+  width: 100%;
+}

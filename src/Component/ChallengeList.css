@@ -1,0 +1,15 @@
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 1.5rem;
+}
+
+.card-wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.card-wrapper .card {
+  width: 100%;
+  height: 100%;
+}
