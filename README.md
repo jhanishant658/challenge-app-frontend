@@ -59,3 +59,81 @@ YouTube walkthrough of the application:
 
 ## 📂 Project Structure
 
+src/
+├── Component/
+│ ├── AddChallenge.js
+│ ├── Challenge.js
+│ ├── ChallengeList.js
+│ ├── DeleteConfirmation.js
+│ ├── Home.js
+│ ├── MonthChallenge.js
+│ ├── NavBar.js
+│ └── Update.js
+│
+├── App.js
+├── index.js
+└── setupTests.js 
+
+---
+
+## 🔗 Related Repository
+
+Backend (Node / API):
+
+👉 **(https://github.com/jhanishant658/Monthly_Challenge_App)**
+
+---
+
+## ▶️ Getting Started
+
+### Prerequisites
+
+- Node.js >= 16  
+- npm  
+
+---
+
+### Installation
+
+git clone https://github.com/jhanishant658/monthly-challenge-frontend.git
+cd monthly-challenge-frontend
+npm install
+
+---
+
+### Run Locally
+
+npm start
+
+Ensure backend server is running separately.
+
+---
+
+## 💡 Project Status
+
+- Frontend completed  
+- Backend maintained separately  
+- Not deployed  
+- Demo available on YouTube  
+
+---
+
+## 📚 Learning Outcomes
+
+- Building React applications using components  
+- Managing UI flow for CRUD operations  
+- Connecting frontend with backend APIs  
+- Structuring React projects  
+- Creating demo walkthrough videos  
+
+---
+
+## 🙌 Author
+
+Nishant Jha
+Aspiring Software Developer  
+
+---
+
+⭐ Feel free to star the repository if you find it helpful!
+
